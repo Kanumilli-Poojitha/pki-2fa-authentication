@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pycryptodome
+pyotp
+python-multipart
+cryptography
