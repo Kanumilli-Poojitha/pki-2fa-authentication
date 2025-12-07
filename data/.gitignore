@@ -2,6 +2,7 @@
 request_seed.py
 encrypted_seed.txt
 seed.txt
+otp_signature.bin
 
 # Python cache
 __pycache__/
