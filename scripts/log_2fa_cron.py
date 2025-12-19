@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 import time
-from totp_gen import generate_totp_code  # correct import
+import sys
+import os
 
-# Path to seed file inside container
+# ✅ Explicitly add /app to Python path for cron
+sys.path.append("/app")
+
+from totp_gen import generate_totp_code
+
 SEED_FILE = "/app/data/seed.txt"
 
 try:
