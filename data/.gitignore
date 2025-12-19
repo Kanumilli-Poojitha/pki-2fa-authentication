@@ -3,6 +3,8 @@ request_seed.py
 encrypted_seed.txt
 seed.txt
 otp_signature.bin
+generate_seed.ps1
+derived_public.pem
 
 # Python cache
 __pycache__/
